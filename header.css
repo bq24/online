@@ -1,0 +1,138 @@
+/*
+
+ */
+body {
+height: 100%;
+width: 100%;
+text-align: center;
+font-size: 16px;
+color: #eee;
+background-color: #2e2e2e !important;
+background: url('') 0 0 no-repeat fixed;
+
+background-size: cover;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='', sizingMethod='scale');
+}
+
+.pure-u-1 { text-align:center; }
+
+a { color: #9f4e81; }
+
+.content-tables {
+	background: #2e2e2e;
+	color: #888;
+	text-align: center;
+}
+
+.pure-img-responsive {
+    max-width: 100%;
+    height: auto;
+}
+
+h1 {
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+h2 {
+	letter-spacing: 0.05em;
+	text-transform: uppercase;
+	font-weight: bold;
+	line-height: 1.6em;
+}
+
+h3, h4 {
+    letter-spacing: 0.25em;
+    text-transform: uppercase;
+    font-weight: 200;
+}
+
+p {
+    line-height: 1.6em;
+}
+
+.l-content {
+    margin: 0 auto;
+}
+
+.l-box {
+    padding: 0.5em 2em;
+}
+
+.header-table-header {
+	margin: 0 auto;
+
+}
+
+.header-tables,
+ .information {
+    max-width: 980px;
+    margin: 0 auto;
+ }
+
+.footer {
+    background: #2e2e2e;
+    color: #888;
+    text-align: center;
+}
+    .footer a {
+        color: #ddd;
+    }
+
+
+/*
+ * -- TABLET MEDIA QUERIES --
+ * On tablets, we want to slightly adjust the size of the banner
+ * text and add some vertical space between the various header tables
+ */
+@media(min-width: 767px) {
+
+    .banner-head {
+        font-size: 4em;
+    }
+    .header-table {
+        margin-bottom: 0;
+    }
+
+}
+
+/*
+ * -- PHONE MEDIA QUERIES --
+ */
+@media (min-width: 480px) {
+    .banner {
+        height: 100px;
+    }
+    .banner-head {
+        font-size: 3em;
+    }
+}
+
+/* YouTube Responsive CSS */
+
+.vr-responsive-embed {
+position: relative;
+height: 0;
+overflow: hidden;
+padding-top: 0;
+padding-left: 0;
+padding-right: 0;
+}
+
+.vr-responsive-embed iframe,
+.vr-responsive-embed object,
+.vr-responsive-embed embed {
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+border: 0;
+}
+
+.vr-responsive-embed,
+.vr-responsive-embed.vr-responsive-embed-youtube,
+.vr-responsive-embed.vr-responsive-embed-vimeo {
+padding-bottom: 56.25%;
+}
