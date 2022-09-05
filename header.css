@@ -8,10 +8,13 @@ text-align: center;
 font-size: 16px;
 color: #eee;
 background-color: #2e2e2e !important;
-background: url('') 0 0 no-repeat fixed;
-
+background: url("https://pub.xs24.com/file/portal/purple4k.jpg") no-repeat center center fixed; 
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
 background-size: cover;
-    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='', sizingMethod='scale');
+height: 100%;
+overflow: hidden;
 }
 
 .pure-u-1 { text-align:center; }
